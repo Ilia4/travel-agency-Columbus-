@@ -1,0 +1,157 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 90px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .more{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    background-color: #eee;
+    transition: background-color 0.3s;
+    width:fit-content;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .more:hover{
+    background-color: #0056b3;
+  }
+  .menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    background-color: #eee;
+    transition: background-color 0.3s;
+  }
+  
+  .menu a.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .menu a:hover {
+    background-color: #0056b3;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content h1 {
+    margin-bottom: 20px;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .user-info p {
+    margin-bottom: 5px;
+  }
+  
+  .edit-profile {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-profile:hover {
+    background-color: #0056b3;
+  }
+  .wishlist-items {
+    display: none;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Автоматическое подстраивание колонок */
+    gap: 20px; /* Пробел между элементами */
+}
+
+.wishlist-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Скрывает содержимое за пределами границ */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Тень для глубины */
+}
+
+.wishlist-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Заполняет весь контейнер изображением */
+}
+
+.wishlist-info {
+    padding: 15px;
+    background-color: #fff; /* Белый фон для информации */
+}
+
+.wishlist-info h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.wishlist-info p {
+    margin-bottom: 5px;
+    color: #555; /* Более темный серый цвет для текста */
+}
+.purchases-items {
+    display: none;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .purchase-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .purchase-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .purchase-info {
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .purchase-info h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .purchase-info p {
+    margin-bottom: 5px;
+    color: #555;
+  }

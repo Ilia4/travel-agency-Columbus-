@@ -1,0 +1,29 @@
+.tittleInfo{
+    font-family: "Tittle";
+    color: rgb(0, 0, 0);
+    border-bottom: 4px rgb(255, 220, 175) solid;
+}
+
+.containerInfo{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.paramsInfo{
+width: 55%;
+font-family: Open Sans, Trebuchet MS, arial, sans-serif;
+    color: #7a7a7a;
+    font-size: 17px;
+    line-height: 1.5;
+
+}
+.paramsInfo strong{
+    color: black;
+}
+@font-face{
+    font-family: "Tittle";
+    src: url("../fonts/PTSans-Bold.ttf") format("truetype");   
+  }

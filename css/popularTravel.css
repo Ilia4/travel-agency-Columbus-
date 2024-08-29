@@ -1,0 +1,59 @@
+.title{
+    padding-top:160px;
+    font-family: "Tittle";
+    color: rgb(255, 255, 255);
+  }
+  .infBlck{
+    text-align: center;
+    background: url(../css/img/backPopularTravel1.jpg) no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+  }
+  @font-face{
+    font-family: "Tittle";
+    src: url("../fonts/PTSans-Bold.ttf") format("truetype");   
+  }
+
+.card{
+  border: 1px rgb(221, 221, 221) solid;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  margin-right: 5px;
+}
+.row-g-0{
+  display: flex;
+  height: 100%;
+  width: auto;
+}
+.img-fluid{
+  width: 260px;
+  height: 100%;
+} 
+.card-title{
+  font-size: 20px;
+  margin: 2px 2px 2px 12px;
+  font-weight: 500;
+    line-height: 1.2;
+}
+.card-text{
+  margin: 2px 2px 2px 12px;
+  font-weight: 500;
+    line-height: 1.2;
+    font-size: 17px;
+}
+.card-text .text-body-secondary{
+  font-size: 16px;
+  text-underline-offset: 4px;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: aliceblue;
+}

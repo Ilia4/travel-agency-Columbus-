@@ -1,0 +1,529 @@
+.hotelInfoContain{
+   width: auto;
+   display: flex;
+   justify-content: center;
+}
+
+.hotelBlock{
+    width: 900px;
+    box-shadow: 1px 2px 10px 1px black;
+    
+}
+
+.star{
+    width: 20px;
+
+    overflow: hidden;
+}
+.mainInfo{
+    background-color: rgb(189, 189, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+.hotelBlockHead{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.name{
+    font-family: Open Sans,Trebuchet MS,arial,sans-serif;
+    color: #444444;
+    text-shadow: 1px 1px 0 #F1F1F1;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.country{
+    color: #444444;
+
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 9px;
+}
+.moreInfo{
+    display: flex;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px 1px rgb(119, 117, 0);
+    justify-content: space-between;
+}
+.marker{
+    width: 20px;
+    background-color: #bbbbbb;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 50px;
+
+}
+.location{
+    display: flex;
+    
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.location h5{
+    margin: 0;
+    margin-left: 8px;
+}
+.imgBlock{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: 200px;
+
+
+}
+.btnHtlBlk{
+    width: 300px;
+    background-color: #f0feff;
+
+}
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    justify-content: center;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    width: 200px;
+    cursor: pointer;
+    margin-left: 16%;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 6px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+  }
+
+  #bottone5 {
+    margin-top: 23px;
+    margin-left: 16%;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20em;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+   }
+   
+   #bottone5:hover,
+   #bottone5:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+   }
+   
+   #bottone5:hover {
+    transform: translateY(-1px);
+   }
+   
+   #bottone5:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+   }
+   .photoBlockHotel{
+    
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   }
+   .headBlockHotelbtn{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #c7e9f3;
+        border: 0px;
+        border-radius: 9px;
+        cursor: pointer;
+        transition-duration: 0.3s;
+        margin-left: 20px;
+   }
+ 
+   .infoAboutHotel{
+    display: flex;
+    margin-top: 20px;
+    border-top-style: dashed;
+    border-top-width: 2px;
+    border-top-color: rgb(216, 216, 216);
+   margin-right: 20px;
+   margin-left: 20px;
+
+   }
+   .aboutCountry{
+    display: flex;
+    flex-direction: column;
+   }
+   .titleBlockH4{
+    width: 350px;
+    padding-right: 25px;
+
+   }
+   .infBlk{
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(216, 216, 216);
+
+   }
+   .h222{
+    margin-left: 20px;
+    font-family: Open Sans,Trebuchet MS,arial,sans-serif;
+    color: #444444;
+    text-shadow: 1px 1px 0 #F1F1F1;
+   }
+   .titleBlockH4{
+    font-family: Open Sans,Trebuchet MS,arial,sans-serif;
+    color: #444444;
+    text-shadow: 1px 1px 0 #F1F1F1;
+   }
+   .p{
+    font-family: Open Sans,Trebuchet MS,arial,sans-serif;
+    color: #000000;
+
+   }
+   .photoHotel{
+    display: flex;
+    justify-content: space-between;
+   }
+  .phthtl{
+    width: 350px;
+    height: 200px;
+    box-shadow: 1px 2px 10px 1px black;
+  }
+  
+  .formNotification{
+    height: 240px;
+    background-color: #ffffff;
+    display: flex;
+    display: none;
+    justify-content: space-evenly;
+  }
+  .inputEmail{
+    width: 350px;
+  }
+  .inputEmail input{
+    margin-top: 15px;
+  }
+  .inputEmail h3{
+    margin: 0;
+  }
+  .btnBackInfo {
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+  }
+  
+  .btnBackInfo:before {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin-right: 10px;
+    transition: all .42s cubic-bezier(.25,.8,.25,1);
+    width: 0;
+  }
+  
+  .btnBackInfo:hover:before {
+    background-color: #fff;
+    width: 3rem;
+  }
+  .back{
+    text-decoration: none;
+    color: black;
+  }
+ .infInput{
+    height: 35px;
+    width: 260px;
+    outline: none;
+ }
+ .button-name {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px,rgba(45, 35, 66, 0.15) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-top: 25px;
+   }
+   
+   .button-name:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+   }
+   
+   .button-name:hover {
+    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+   }
+   
+   .button-name:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+   }
+
+
+   .error{
+    display: none;
+    width:auto;
+    height: 30px;
+    padding: 15px;
+    border: 1px solid #dba2a2;
+    border-radius: 4px;
+    color: #000000;
+    background-color: #b88484;
+    position: absolute;
+  right: 15px;
+  bottom: 15px;
+  }
+  .backBtnHead {
+    width: fit-content;
+    min-width: 100px;
+    height: 45px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2.5px solid #E0E1E4;
+    box-shadow: 0px 0px 20px -20px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.2s ease-in-out 0ms;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5px;
+  }
+  
+  .backBtnHead:hover {
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+  .backBtnHead:active {
+    transform: scale(0.95);
+  }
+  .feedback{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .textAreaBlock{
+    width: 100%;
+  }
+  
+.feedbackInput {
+  width: 100%;
+  border: 2px black solid;
+  border-radius: 6px;
+  font-size: 17px;
+  font-family: Open Sans, Trebuchet MS, arial, sans-serif;
+  color: #000000;
+   
+}
+.feedbackTittle{
+font-family: Open Sans, Trebuchet MS, arial, sans-serif;
+    color: #444444;
+    text-shadow: 1px 1px 0 #F1F1F1;
+    font-size: 16px;
+    text-align: center;
+}
+.sendFeedback {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+ }
+ 
+ .sendFeedback:hover,
+ .sendFeedback:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+ }
+ 
+ .sendFeedback:hover {
+  transform: translateY(-1px);
+ }
+ 
+ .sendFeedback:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+ }
+ .feedbackContain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    padding-bottom: 25px;
+ }
+ .feedbackStar{
+  width: 30px;
+  height: 30px;
+  overflow: auto;
+  border-radius: 40px;
+  
+ }
+ .feedbackStar.active {
+  /* Здесь вы можете указать стили для подсвеченных звезд */
+  /* Например, изменить цвет */
+  background-color: yellow;
+}
+.selected{
+  background-color: yellow;
+}
+.starContain{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-family: Open Sans, Trebuchet MS, arial, sans-serif;
+    color: #444444;
+    text-shadow: 1px 1px 0 #F1F1F1;
+    font-size: 16px;
+    align-items: center
+}
+.starContain h4{
+  margin: 0;
+  margin-left: 20px;
+}
+.allFeedbackTittle{
+  font-family: Open Sans, Trebuchet MS, arial, sans-serif;
+    color: #444444;
+    text-shadow: 1px 1px 0 #F1F1F1;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+.allFeedback{
+  display: flex;
+  flex-wrap: wrap;
+  border-top-style: dashed;
+    border-top-width: 2px;
+    border-top-color: rgb(216, 216, 216);
+}
+.userfeedBlock{
+  width: auto;
+  border: 1px rgb(192, 192, 192) solid;
+  width: 100%;
+  border-radius: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-top: 25px;
+}
+.userfeedBlockHead h4{
+  margin: 0;
+  font-family: Open Sans, Trebuchet MS, arial, sans-serif;
+    color: #444444;
+    text-shadow: 1px 1px 0 #F1F1F1;
+    font-size: 16px;
+}
+.userContain{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+}
+.ratingContain{
+  display: flex;
+}
+.textFeedback p{
+  font-family: Open Sans,Trebuchet MS,arial,sans-serif;
+  color: #000000;
+}
+#successMessage {
+  position: fixed;  /* Фиксируем позицию относительно экрана */
+  bottom: 20px;     /* Отступ от нижнего края экрана */
+  right: 20px;      /* Отступ от правого края экрана */
+  padding: 15px 20px;
+  background-color: #4CAF50; /* Зеленый цвет фона */
+  color: white;
+  border-radius: 5px;
+  z-index: 1000;  /* Убеждаемся, что сообщение будет поверх других элементов */
+}

@@ -1,0 +1,180 @@
+
+.title{
+    font-family: "Tittle";
+    font-size: 24px;
+    color: white;
+    letter-spacing: 3px;
+
+    background: url(../css/img/backAboutCountry.jpg) no-repeat;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    justify-content: space-evenly;
+}
+.title h3{
+    padding-top: 8%;
+}
+
+@font-face{
+    font-family: "Tittle";
+    src: url("../fonts/PTSans-Bold.ttf") format("truetype");   
+  }
+.countryTitle{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.infoCountry h1{
+    margin-top:0;
+    padding-bottom: 18px;
+    font-family: "Tittle";
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    text-align: center;
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(216, 216, 216);
+}
+.containCountryBlock{
+    display: flex;
+    justify-content: center;
+}
+.infoAboutCountry{
+    width: 900px;
+    
+}
+.countryDescription p{
+    font-size: 17px;
+    font-weight:500;
+    font-family: "Params";
+    text-align: justify;
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(216, 216, 216);
+    padding-bottom: 20px;
+}
+@font-face {
+    font-family: "Params";
+    src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");   
+}
+.imgCountry img{
+    width: 900px;
+    border-radius: 6px;
+}
+.imgCountry{
+    padding-top: 20px;
+}
+.imgCountry h1{
+    margin:0;
+    padding-bottom: 20px;
+    font-family: "Tittle";
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.toursDescription p{
+    font-size: 17px;
+    font-weight:500;
+    font-family: "Params";
+    text-align: justify;
+    border-top-style: dashed;
+    border-top-width: 2px;
+    border-top-color: rgb(216, 216, 216);
+    padding-top: 20px;
+}
+.toursDescription{
+    padding-bottom: 10px;
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(216, 216, 216);
+}
+.tittleTours h1{
+    margin:0;
+    padding-bottom: 20px;
+    font-family: "Tittle";
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    text-align: center;
+}
+.hotel{
+    background-color: rgb(255, 255, 255);
+    width:300px;
+    cursor: pointer;
+    font-family: "Hotel";
+    transition-duration: 1s;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    border: 1px rgb(211, 211, 211) solid;
+    border-radius: 4px ;
+    }
+    
+    
+    .hotel:hover{
+    box-shadow: 1px 2px 10px 1px black;
+    
+    
+    }
+    
+    
+    .hotelPhoto{
+    margin-left: 30px;
+    
+    margin-top: 15px;
+    margin-bottom: 8px;
+    box-shadow: 1px 2px 10px 1px black;
+    }
+    
+    .nameHotel{
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    }
+    
+    .desc{
+    margin: 0;
+    padding: 0;
+    
+    
+    }
+    
+    
+    @font-face{
+      font-family: "Hotel";
+      src: url("../fonts/PTSans-Regular.ttf") format("truetype"); 
+      
+    } 
+    
+    .costHotel{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+    }
+    .more{
+        font-size: 21px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-decoration: none;
+        background-color: rgba(211, 211, 211, 0.795);
+        margin-left: 5px;
+        padding:9px 9px 9px 9px ;
+        border-radius: 7px;
+        cursor: pointer;
+        transition-duration: 0.3s;
+      }
+      .more:hover{
+        background-color: rgb(233, 233, 233);
+      
+      }
+.toursContain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

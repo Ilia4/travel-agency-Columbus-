@@ -1,0 +1,20 @@
+.containContactInfo{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contactInfo{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-content: space-between;
+justify-content: center;
+border: 2px black solid;
+font-family: "Tittle";
+padding:10px 10px 10px 10px;
+}
+@font-face{
+    font-family: "Tittle";
+    src: url("../fonts/PTSans-Bold.ttf") format("truetype");   
+  }

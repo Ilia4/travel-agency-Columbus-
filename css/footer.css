@@ -1,0 +1,14 @@
+.contain{
+text-align: center;
+padding-bottom: 20px;
+background-color: rgb(34, 34, 34);
+color: white;
+padding-top: 40px;
+
+font-family: "Slogan";
+}
+@font-face{
+    font-family: "Slogan";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf") format("truetype"); 
+    
+  }

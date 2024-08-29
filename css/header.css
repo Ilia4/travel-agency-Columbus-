@@ -1,0 +1,547 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.link{
+    text-align: center;
+}
+
+.linkHead{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+.linkHead:hover{
+    color:rgb(255, 166, 0)
+}
+.border{
+    border-bottom: 1px rgb(189, 189, 189) solid;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.dropbtn {
+    background-color: white;
+    color: rgb(179, 179, 179);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Кнопка выпадающего меню при наведении и фокусировке */
+  .dropbtn:hover, .dropbtn:focus {
+    color: rgb(255, 195, 83);
+  }
+  
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+  .show {display:block;}
+
+  .search{
+    background-color: white;
+    color: rgb(179, 179, 179);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+  }
+  .search:hover , .search:focus , .top:hover , .top:focus {
+    color: rgb(255, 195, 83);
+  }
+  .top{
+    background-color: white;
+    color: rgb(179, 179, 179);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .img{
+    display: inline-block;
+    margin-left: 250px;
+    
+  }
+  .button{
+    margin-left: 140px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 37px;
+  }
+
+  .acc {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10rem;
+    transition: all 0.02s;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    z-index: 0;
+    box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .acc:hover {
+    background: rgb(193, 228, 248);
+    color: rgb(33, 0, 85);
+  }
+  
+  .acc:active {
+    transform: scale(0.97);
+  }
+  
+  .hoverEffect {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .hoverEffect div {
+    background: rgb(222,0,75);
+    background: linear-gradient(90deg, rgb(0, 207, 207) 0%, rgb(74, 71, 255)9%, rgba(0,212,255,1) 100%);
+    border-radius: 40rem;
+    width: 10rem;
+    height: 10rem;
+    transition: 0.4s;
+    filter: blur(20px);
+    animation: effect infinite 3s linear;
+    opacity: 0.5;
+  }
+  
+  .acc:hover .hoverEffect div {
+    width: 8rem;
+    height: 8rem;
+  }
+  
+  @keyframes effect {
+  
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  .signup{
+    margin-top: 20px;
+    position: absolute;
+    z-index: 100;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    left: 40% ;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-left: 85px;
+    margin-top: 20px;
+   }
+   
+   .input {
+    border: solid 1.5px #000000;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .user-label {
+    position: absolute;
+    left: 15px;
+    color: #000000;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   .input:focus, .input:valid {
+    outline: none;
+    border: 1.5px solid #1a73e8;
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: rgb(255, 255, 255);
+    padding: 0 .2em;
+    color: #2196f3;
+   }
+   .btn {
+    margin-left: 71px;
+    margin-top: 40px;
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+    cursor: pointer;
+    
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ffc506;
+    transition: .5s ease;
+  }
+  
+  .btn:hover {
+    color: #1e1e2b;
+    transition-delay: .5s;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  .btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ffc506;
+    transition: .4s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+  .alog{
+    margin-left: 140px;
+  
+  }
+  .a{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    transition-duration: 0.4s;
+  }
+  .a:hover{
+    color: rgb(189, 189, 189);
+  }
+  .close{
+    position: absolute;
+    left: 93%;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .login{
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 100;
+    width: 400px;
+    height: 540px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    left: 40% ;
+    
+   
+  }
+ 
+  .form2{
+    margin-top: 80px;
+  }
+  
+  .close2{
+    position: absolute;
+    left: 93%;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .input-group2 {
+    position: relative;
+    margin-left: 85px;
+    margin-top: 40px;
+   }
+   .btn2 {
+    margin-left: 140px;
+    margin-top: 45px;
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+    cursor: pointer;
+  }
+  
+  .btn2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ffc506;
+    transition: .5s ease;
+  }
+  
+  .btn2:hover {
+    color: #1e1e2b;
+    transition-delay: .5s;
+  }
+  
+  .btn2:hover::before {
+    width: 100%;
+  }
+  
+  .btn2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ffc506;
+    transition: .4s ease;
+    z-index: -1;
+  }
+  
+  .btn2:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+
+  .infoBlock{
+    position: relative;
+    display: none;
+  }
+    
+    
+    .profile{
+      display: block;
+      z-index: 400;
+      position:absolute;
+      background-color: rgb(219, 219, 219);
+      border-radius: 10px;
+      width: 50%;
+      left: 25%;
+      height: 600px;
+    }
+    
+    .ava{
+      position: relative;
+      bottom:50px;
+      margin-left: 100px;
+      margin-top: 120px;
+      border: 5px rgb(32, 244, 252) solid;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    
+    .input-container {
+      position: relative;
+      bottom: 140px;
+      right: 80px;
+      margin: 20px auto;
+      width: 200px;
+      
+    }
+    
+    .underline{
+    border-bottom: 2px black solid;
+    width: 190px;
+    
+    }
+    
+    .info{
+      font-size: 19px;
+    }
+    
+    .closeProfile{
+      position: absolute;
+      left: 98%;
+      cursor: pointer;
+      bottom: 97%;
+    }
+    
+    .buy{
+      background-color: #000000;
+      width: 500px;
+      height: 100px;
+      display: inline;
+    }
+    .topProfile{
+      margin-top: 10px;
+      border-bottom: 1px rgb(134, 134, 134) solid;
+      margin-left: 4px;
+      margin-right: 4px;
+      }
+      
+      .btnTopProfile:nth-child(1n){
+        margin-left: 100px;
+        border: 1px rgba(0, 0, 0, 0) solid;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0);
+        font-size: 18px;
+        transition-duration: 0.3s;
+      }
+      
+      .btnTopProfile:hover{
+      
+      border-bottom: 1px black solid;
+      
+      }
+      .information{
+
+        background-color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 94%;
+      }
+.wishlist{
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 80%;
+  height: 94%;
+  display: flex;
+  display: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+.wishListImg{
+  height: 100%;
+  width: 100%;
+  border-radius: .5rem;
+
+}
+.productCard {
+  
+  width: 270px;
+  height: 75%;
+  padding: .8em;
+  background: #f5f5f5;
+  position: relative;
+  overflow: visible;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  
+ }
+ 
+ .product-img {
+  background-color: #ffcaa6;
+  height: 50%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+ }
+ 
+ .productCard-info {
+  padding-top: 10%;
+ }
+ 
+ 
+ .productCard-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+ }
+ 
+ /*Text*/
+ .productText-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
+ }
+ 
+ .productText-body {
+  font-size: .9em;
+  padding-bottom: 10px;
+ }
+ /*Button*/
+ .productCard-button a {
+ font-size: 13px;
+ text-decoration: none;
+ color: black;
+ transition-duration: 0.3ms;
+ }
+ /*Hover*/
+ .product-img:hover {
+  transform: translateY(-15%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+ }
+ .productCard-button a:hover {
+  color: rgb(80, 80, 80);
+ }
+ .purchases{
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 94%;
+  display: none;
+}
+.success{
+  position: absolute;
+}
+.errorBlockReg{
+  display: none;
+  width:80%;
+  color: #ff0000;
+margin-left: 45px;
+margin-top: 5px;
+}
